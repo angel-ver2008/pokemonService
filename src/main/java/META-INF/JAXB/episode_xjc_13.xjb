@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.11.03 a las 11:56:01 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://pokemon.com/webservice">
+    <schemaBindings map="false">
+      <package name="com.pokemon.webservice"/>
+    </schemaBindings>
+    <bindings scd="tns:abilitiesRequest">
+      <class ref="com.pokemon.webservice.AbilitiesRequest"/>
+    </bindings>
+    <bindings scd="tns:abilitiesResponse">
+      <class ref="com.pokemon.webservice.AbilitiesResponse"/>
+    </bindings>
+    <bindings scd="~tns:pokemonAbility">
+      <class ref="com.pokemon.webservice.PokemonAbility"/>
+    </bindings>
+    <bindings scd="tns:base_experienceRequest">
+      <class ref="com.pokemon.webservice.BaseExperienceRequest"/>
+    </bindings>
+    <bindings scd="tns:base_experienceResponse">
+      <class ref="com.pokemon.webservice.BaseExperienceResponse"/>
+    </bindings>
+    <bindings scd="tns:held_itemsRequest">
+      <class ref="com.pokemon.webservice.HeldItemsRequest"/>
+    </bindings>
+    <bindings scd="tns:held_itemsResponse">
+      <class ref="com.pokemon.webservice.HeldItemsResponse"/>
+    </bindings>
+    <bindings scd="tns:idRequest">
+      <class ref="com.pokemon.webservice.IdRequest"/>
+    </bindings>
+    <bindings scd="tns:idResponse">
+      <class ref="com.pokemon.webservice.IdResponse"/>
+    </bindings>
+    <bindings scd="tns:nameRequest">
+      <class ref="com.pokemon.webservice.NameRequest"/>
+    </bindings>
+    <bindings scd="tns:nameResponse">
+      <class ref="com.pokemon.webservice.NameResponse"/>
+    </bindings>
+    <bindings scd="tns:location_area_encountersRequest">
+      <class ref="com.pokemon.webservice.LocationAreaEncountersRequest"/>
+    </bindings>
+    <bindings scd="tns:location_area_encountersResponse">
+      <class ref="com.pokemon.webservice.LocationAreaEncountersResponse"/>
+    </bindings>
+    <bindings scd="~tns:ability">
+      <class ref="com.pokemon.webservice.Ability"/>
+    </bindings>
+    <bindings scd="~tns:pokemonHeldItem">
+      <class ref="com.pokemon.webservice.PokemonHeldItem"/>
+    </bindings>
+    <bindings scd="~tns:item">
+      <class ref="com.pokemon.webservice.Item"/>
+    </bindings>
+    <bindings scd="~tns:pokemonHeldItemVersion">
+      <class ref="com.pokemon.webservice.PokemonHeldItemVersion"/>
+    </bindings>
+    <bindings scd="~tns:version">
+      <class ref="com.pokemon.webservice.Version"/>
+    </bindings>
+  </bindings>
+</bindings>
+
